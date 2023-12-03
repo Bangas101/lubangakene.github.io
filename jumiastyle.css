@@ -1,0 +1,110 @@
+/*Editing header1*/
+.header1 {
+    padding: 0px 0px 20px 0px;
+    height:2px;
+    display: flex;
+}
+
+.content1 {
+    text-align: center;
+    margin-left: 30%;
+    color: rgb(138, 138, 138);
+}
+
+/*Editing search button*/
+
+.search-button{
+    background-color: orange;
+    border:none;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+
+/*Editing header2*/
+.header2 ul{
+    background-color: white;
+    display:flex;
+    list-style-type: none;
+    justify-content:space-around;
+    padding: 20px;
+}
+
+/*Editing Left section*/
+.left-section{
+    float: left;
+}
+
+.left-section ul{
+    margin-top: 0px;
+    margin-left: 35px;
+    padding: 15px 0px 0px 25px;
+    background-color: white;
+    list-style-type: none;
+    width: 300px;
+
+}
+
+.left-section a{
+    display: block;
+}
+
+.left-section li:hover{
+    background-color: rgb(190, 190, 190);
+    padding: 12px;
+}
+
+/*Editing right section*/
+.right-section{
+    margin-left:28%;
+    margin-right: 25px;
+    background-color: white;
+    padding: 1px 0px 0px 10px;
+}
+
+/*Editing the order lists in the right section*/
+
+.orderlists{
+    display: flex;
+    list-style-type: none;
+    justify-content:flex-start;
+}
+/*Editing the product containers*/
+.items li{
+    list-style-type: none;
+}
+/*Editing the product images*/
+.items img{
+    width: 150px;
+    height: 150px;
+}
+.open-orders{
+    color: orange;
+    text-decoration: 2px underline;
+}
+
+.open-items li{
+    display: flex;
+    border: 2px solid rgb(173, 173, 173);
+    border-radius: 4px;
+}
+.open-items p{
+    padding-left: 20px;
+  
+}
+.order-id{
+    color:grey;
+}
+.delivered{
+    color: white;
+    background-color: rgb(21, 150, 21);
+    padding: 3px;
+}
+.see-details{
+    color: orange;
+    margin-left: 25%;
+}
+.see-details1{
+    color: orange;
+    margin-left: 43%;
+}

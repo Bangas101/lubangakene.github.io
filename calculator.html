@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+    <title>onlinecalculator</title>
+    <style>
+    body {
+    padding: 0;
+    margin: 0;
+}
+
+    </style>
+</head>
+<body>
+    <form action="calculator.html" class="calculatorDesign" method="post" name="calcform">
+        <input type="text" name="answer" id="display">
+        <br></br>
+        <input type="button" class="buttonDesign" value="7" onclick="calcform.answer.value+='7'">
+        <input type="button" class="buttonDesign" value="8" onclick="calcform.answer.value+='8'">
+        <input type="button" class="buttonDesign" value="9" onclick="calcform.answer.value+='9'">
+        <input type="button" class="operatorSymbol" value="/" onclick="calcform.answer.value+='/'">
+        <br></br>
+        <input type="button" class="buttonDesign" value="4" onclick="calcform.answer.value+='4'">
+        <input type="button" class="buttonDesign" value="5" onclick="calcform.answer.value+='5'">
+        <input type="button" class="buttonDesign" value="6" onclick="calcform.answer.value+='6'">
+        <input type="button" class="operatorSymbol" value="*" onclick="calcform.answer.value+='*'">
+        <br></br>
+        <input type="button" class="buttonDesign" value="1" onclick="calcform.answer.value+='1'">
+        <input type="button" class="buttonDesign" value="2" onclick="calcform.answer.value+='2'">
+        <input type="button" class="buttonDesign" value="3" onclick="calcform.answer.value+='3'">
+        <input type="button" class="operatorSymbol" value="-" onclick="calcform.answer.value+='-'">
+        <br></br>
+        <input type="button" class="buttonDesign" value="." onclick="calcform.answer.value+='.'">
+        <input type="button" class="buttonDesign" value="0" onclick="calcform.answer.value+='0'">
+        <input type="button" class="operatorSymbol" value="+" onclick="calcform.answer.value+='+'">
+        <input type="button" class="buttonDesign" value="C" onclick="calcform.answer.value=' '" style="background-color: red;">
+        <br></br>
+        <input type="button" id="equalSignDesign" value="=" onclick="calcform.answer.value=eval(calcform.answer.value)">
+    </form>
+</body>
+</html>
